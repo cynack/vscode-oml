@@ -1,0 +1,56 @@
+{
+  "OML template": {
+    "prefix": "oml",
+    "body": [
+      "module.exports = {",
+      "\toml: {",
+      "\t\tgroup: [",
+      "\t\t\t$0",
+      "\t\t]",
+      "\t}",
+      "}"
+    ],
+    "description": "OML template"
+  },
+  "OML group": {
+    "prefix": "group",
+    "body": [
+      "{",
+      "\tgroup: [",
+      "\t\t$0",
+      "\t]",
+      "},"
+    ],
+    "description": "OML group"
+  },
+  "OML component": {
+    "prefix": "component",
+    "body": [
+      "{",
+      "\tcomponent: '@${1:cube}',",
+      "},",
+      "$0"
+    ],
+    "description": "OML component"
+  },
+  "OML size property": {
+    "prefix": "scale",
+    "body": "scale: [${1:1}]"
+  },
+  "OML scale property": {
+    "prefix": "scale",
+    "body": "scale: [${1:1}, ${2:1}, ${3:1}],"
+  },
+  "OML pos property": {
+    "prefix": "pos",
+    "body": "pos: [${1:0}, ${2:0}, ${3:0}],"
+  },
+  "OML rot property": {
+    "prefix": "rot",
+    "body": "rot: [${1:0}, ${2:0}, ${3:0}],"
+  },
+  "OML color property": {
+    "prefix": "color",
+    "body": "color: '#${1:ffffff}',"
+  }
+}

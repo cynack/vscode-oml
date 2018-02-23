@@ -1,0 +1,30 @@
+{
+  "name": "oml",
+  "displayName": "oml",
+  "description": "",
+  "version": "0.0.1",
+  "publisher": "hrntknr",
+  "engines": {
+    "vscode": "^1.20.0"
+  },
+  "categories": [
+    "Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "oml",
+      "aliases": ["OML", "oml"],
+      "extensions": ["oml"],
+      "configuration": "./language/oml-language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "oml",
+      "scopeName": "source.oml",
+      "path": "./syntaxes/oml-tmLanguage.json"
+    }],
+    "snippets": [{
+      "language": "oml",
+      "path": "./snippets/oml-snippets.json"
+    }]
+  }
+}

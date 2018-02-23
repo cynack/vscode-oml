@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "OML",
+  "patterns": [
+    {
+      "include": "source.js"
+    }
+  ],
+  "scopeName": "source.oml"
+}
