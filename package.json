@@ -2,11 +2,11 @@
   "name": "oml",
   "displayName": "oml",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "hrntknr",
   "repository": {
-    "type" : "git",
-    "url" : "http://github.com/cynack/vscode-oml.git"
+    "type": "git",
+    "url": "http://github.com/cynack/vscode-oml.git"
   },
   "engines": {
     "vscode": "^1.20.0"
@@ -15,20 +15,31 @@
     "Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "oml",
-      "aliases": ["OML", "oml"],
-      "extensions": ["oml"],
-      "configuration": "./language/oml-language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "oml",
-      "scopeName": "source.oml",
-      "path": "./syntaxes/oml-tmLanguage.json"
-    }],
-    "snippets": [{
-      "language": "oml",
-      "path": "./snippets/oml-snippets.json"
-    }]
+    "languages": [
+      {
+        "id": "oml",
+        "aliases": [
+          "OML",
+          "oml"
+        ],
+        "extensions": [
+          "oml"
+        ],
+        "configuration": "./language/oml-language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "oml",
+        "scopeName": "source.oml",
+        "path": "./syntaxes/oml-tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "oml",
+        "path": "./snippets/oml-snippets.json"
+      }
+    ]
   }
 }
