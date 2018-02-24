@@ -34,8 +34,8 @@
     "description": "OML component"
   },
   "OML size property": {
-    "prefix": "scale",
-    "body": "scale: [${1:1}]"
+    "prefix": "size",
+    "body": "size: [${1:1}]"
   },
   "OML scale property": {
     "prefix": "scale",
