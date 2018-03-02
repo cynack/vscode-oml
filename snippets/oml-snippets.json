@@ -15,22 +15,15 @@
   "OML group": {
     "prefix": "group",
     "body": [
-      "{",
-      "\tgroup: [",
-      "\t\t$0",
-      "\t]",
-      "},"
+      "group: [",
+      "\t$0",
+      "],"
     ],
     "description": "OML group"
   },
   "OML component": {
     "prefix": "component",
-    "body": [
-      "{",
-      "\tcomponent: '@${1:cube}',",
-      "},",
-      "$0"
-    ],
+    "body": "component: '@${1:cube}',",
     "description": "OML component"
   },
   "OML size property": {
