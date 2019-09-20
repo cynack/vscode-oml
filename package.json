@@ -2,7 +2,7 @@
   "name": "oml",
   "displayName": "OML",
   "description": "OML support for Visual Studio Code by Cynack",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "publisher": "Cynack",
   "icon": "images/icon.png",
   "repository": {
