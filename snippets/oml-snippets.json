@@ -12,7 +12,9 @@
     "prefix": "group",
     "body": [
       "group: [",
-      "\t$0",
+      "\t{",
+      "\t\tcomponent: '@${1:cube}',",
+      "\t},",
       "],"
     ],
     "description": "OML group"
@@ -37,5 +39,33 @@
   "OML color property": {
     "prefix": "color",
     "body": "color: '#${1:ffffff}',"
+  },
+  "OML texture property": {
+    "prefix": "texture",
+    "body": "texture: '$0',"
+  },
+  "OML sound property": {
+    "prefix": "sound",
+    "body": "sound: '$0',"
+  },
+  "OML title property": {
+    "prefix": "title",
+    "body": "title: '$0',"
+  },
+  "OML onupdate method": {
+    "prefix": "onupdate",
+    "body": [
+      "onUpdate: function() {",
+      "\t$0",
+      "},"
+    ]
+  },
+  "OML onclick method": {
+    "prefix": "onclick",
+    "body": [
+      "onClick: function() {",
+      "\t$0",
+      "},"
+    ]
   }
 }
